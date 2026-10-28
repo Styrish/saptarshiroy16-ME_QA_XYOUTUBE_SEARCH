@@ -5,236 +5,208 @@
             "RESPONSE": null
         },
         {
-            "COMMAND": "[1793198472.647][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND InitSession {\"capabilities\": {\"firstMatch\": [ {\"browserName\": \"chrome\",\"goog:chromeOptions\": {\"args\": [ \"--remote-allow-origins=*\" ],\"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\"extensions\": [  ]},\"goog:loggingPrefs\": {\"browser\": \"ALL\",\"driver\": \"ALL\"}} ]}}",
-            "RESPONSE": "[1793198476.303][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE InitSession {\"capabilities\": {\"acceptInsecureCerts\": false,\"browserName\": \"chrome\",\"browserVersion\": \"156.0.8078.49\",\"chrome\": {\"chromedriverVersion\": \"156.0.8078.73 (2f9a11097447f226133bc1a31c787291a5eeab98-refs/branch-heads/8078@{#1612})\",\"userDataDir\": \"C:\\\\Users\\\\SAPTAR~1\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir25592_1893875713\"},\"fedcm:accounts\": true,\"goog:chromeOptions\": {\"debuggerAddress\": \"localhost:49675\"},\"goog:processID\": 19960,\"networkConnectionEnabled\": false,\"pageLoadStrategy\": \"normal\",\"platformName\": \"windows\",\"proxy\": {},\"setWindowRect\": true,\"strictFileInteractability\": false,\"timeouts\": {\"implicit\": 0,\"pageLoad\": 300000,\"script\": 30000},\"unhandledPromptBehavior\": \"dismiss and notify\",\"webauthn:extension:cmtgKey\": true,\"webauthn:extension:credBlob\": true,\"webauthn:extension:largeBlob\": true,\"webauthn:extension:minPinLength\": true,\"~~~\": \"...\"},\"sessionId\": \"67a0c62443a4262d60c121021f1eb982\"}"
+            "COMMAND": "[1793200879.974][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND InitSession {\"capabilities\": {\"firstMatch\": [ {\"browserName\": \"chrome\",\"goog:chromeOptions\": {\"args\": [ \"--remote-allow-origins=*\" ],\"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\"extensions\": [  ]},\"goog:loggingPrefs\": {\"browser\": \"ALL\",\"driver\": \"ALL\"}} ]}}",
+            "RESPONSE": "[1793200882.300][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE InitSession {\"capabilities\": {\"acceptInsecureCerts\": false,\"browserName\": \"chrome\",\"browserVersion\": \"156.0.8078.49\",\"chrome\": {\"chromedriverVersion\": \"156.0.8078.73 (2f9a11097447f226133bc1a31c787291a5eeab98-refs/branch-heads/8078@{#1612})\",\"userDataDir\": \"C:\\\\Users\\\\SAPTAR~1\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir23492_1354182232\"},\"fedcm:accounts\": true,\"goog:chromeOptions\": {\"debuggerAddress\": \"localhost:52816\"},\"goog:processID\": 22060,\"networkConnectionEnabled\": false,\"pageLoadStrategy\": \"normal\",\"platformName\": \"windows\",\"proxy\": {},\"setWindowRect\": true,\"strictFileInteractability\": false,\"timeouts\": {\"implicit\": 0,\"pageLoad\": 300000,\"script\": 30000},\"unhandledPromptBehavior\": \"dismiss and notify\",\"webauthn:extension:cmtgKey\": true,\"webauthn:extension:credBlob\": true,\"webauthn:extension:largeBlob\": true,\"webauthn:extension:minPinLength\": true,\"~~~\": \"...\"},\"sessionId\": \"0c12f7b6217c48c2998af8cae184de69\"}"
         },
         {
-            "COMMAND": "[1793198478.166][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND MaximizeWindow {}",
-            "RESPONSE": "[1793198478.329][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE MaximizeWindow {\"height\": 832,\"width\": 1552,\"x\": -7,\"y\": -7}"
+            "COMMAND": "[1793200883.150][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND MaximizeWindow {}",
+            "RESPONSE": "[1793200883.231][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE MaximizeWindow {\"height\": 832,\"width\": 1552,\"x\": -7,\"y\": -7}"
         },
         {
-            "COMMAND": "[1793198478.451][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
-            "RESPONSE": "[1793198489.561][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE Navigate"
+            "COMMAND": "[1793200883.283][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1793200890.874][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE Navigate"
         },
         {
-            "COMMAND": "[1793198493.591][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[contains(text(),'About')]\"}",
-            "RESPONSE": "[1793198493.770][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.493DE65430473312FF4D4DF74AD5D2CD.e.91\"}"
+            "COMMAND": "[1793200893.299][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[contains(text(),'About')]\"}",
+            "RESPONSE": "[1793200893.330][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.495E6431AD4029970C3EB47E2D74DC45.e.33\"}"
         },
         {
-            "COMMAND": "[1793198493.928][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.493DE65430473312FF4D4DF74AD5D2CD.e.91\"}",
-            "RESPONSE": "[1793198493.959][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
+            "COMMAND": "[1793200893.394][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND IsElementEnabled {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.495E6431AD4029970C3EB47E2D74DC45.e.33\"}",
+            "RESPONSE": "[1793200893.418][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE IsElementEnabled true"
         },
         {
-            "COMMAND": "[1793198493.971][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.493DE65430473312FF4D4DF74AD5D2CD.e.91\"}",
-            "RESPONSE": "[1793198497.472][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
+            "COMMAND": "[1793200893.426][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND ClickElement {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.495E6431AD4029970C3EB47E2D74DC45.e.33\"}",
+            "RESPONSE": "[1793200898.003][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE ClickElement"
         },
         {
-            "COMMAND": "[1793198497.490][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//p[@data-cy='pageSubHeading']\"}",
-            "RESPONSE": "[1793198497.513][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.55E7971633899CEE19B4E7629B6FC96C.e.30\"} ]"
+            "COMMAND": "[1793200898.009][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//p[@data-cy='pageSubHeading']\"}",
+            "RESPONSE": "[1793200898.024][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.005215188EFF0B1EA7089DA93C84F7C4.e.5\"} ]"
         },
         {
-            "COMMAND": "[1793198497.552][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementText {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.55E7971633899CEE19B4E7629B6FC96C.e.30\"}",
-            "RESPONSE": "[1793198497.577][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementText \"Our mission is to give everyone a voice and show them the world.\\n\\nWe believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community t...\""
+            "COMMAND": "[1793200898.059][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementText {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.005215188EFF0B1EA7089DA93C84F7C4.e.5\"}",
+            "RESPONSE": "[1793200898.075][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementText \"Our mission is to give everyone a voice and show them the world.\\n\\nWe believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community t...\""
         },
         {
-            "COMMAND": "[1793198497.589][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
-            "RESPONSE": "[1793198501.483][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE Navigate"
+            "COMMAND": "[1793200898.087][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"tag name\",\"value\": \"body\"}",
+            "RESPONSE": "[1793200898.101][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.005215188EFF0B1EA7089DA93C84F7C4.e.165\"}"
         },
         {
-            "COMMAND": "[1793198503.626][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='Movies & TV']\"}",
-            "RESPONSE": "[1793198503.646][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.173\"}"
+            "COMMAND": "[1793200898.122][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementText {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.005215188EFF0B1EA7089DA93C84F7C4.e.165\"}",
+            "RESPONSE": "[1793200898.165][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementText \"How YouTube Works\\nCreators\\nCulture & Trends\\nBlog\\nAbout YouTube\\nOur mission is to give everyone a voice and show them the world.\\n\\nWe believe that everyone deserves to have a voice, and that the worl...\""
         },
         {
-            "COMMAND": "[1793198503.673][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.173\"}",
-            "RESPONSE": "[1793198503.681][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
+            "COMMAND": "[1793200898.173][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1793200900.211][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE Navigate"
         },
         {
-            "COMMAND": "[1793198503.687][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.173\"}",
-            "RESPONSE": "[1793198503.930][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
+            "COMMAND": "[1793200904.645][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='Movies & TV']\"}",
+            "RESPONSE": "[1793200904.725][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.113\"}"
         },
         {
-            "COMMAND": "[1793198507.954][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198507.973][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200904.838][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND IsElementEnabled {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.113\"}",
+            "RESPONSE": "[1793200904.854][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE IsElementEnabled true"
         },
         {
-            "COMMAND": "[1793198507.998][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198508.005][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
+            "COMMAND": "[1793200904.869][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND ClickElement {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.113\"}",
+            "RESPONSE": "[1793200905.277][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE ClickElement"
         },
         {
-            "COMMAND": "[1793198508.011][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198508.332][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
+            "COMMAND": "[1793200909.305][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200909.742][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198508.353][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198508.525][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200909.832][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND IsElementEnabled {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}",
+            "RESPONSE": "[1793200909.840][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE IsElementEnabled true"
         },
         {
-            "COMMAND": "[1793198508.633][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198508.665][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
+            "COMMAND": "[1793200909.845][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND ClickElement {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}",
+            "RESPONSE": "[1793200910.569][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE ClickElement"
         },
         {
-            "COMMAND": "[1793198508.673][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198509.022][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
+            "COMMAND": "[1793200910.585][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200910.636][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198509.035][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198509.365][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200910.653][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND IsElementEnabled {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}",
+            "RESPONSE": "[1793200910.660][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE IsElementEnabled true"
         },
         {
-            "COMMAND": "[1793198509.479][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198509.495][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
+            "COMMAND": "[1793200910.663][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND ClickElement {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}",
+            "RESPONSE": "[1793200910.730][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE ClickElement"
         },
         {
-            "COMMAND": "[1793198509.576][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198509.826][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
+            "COMMAND": "[1793200910.738][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200910.750][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198509.845][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198509.899][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200910.770][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND IsElementEnabled {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}",
+            "RESPONSE": "[1793200910.776][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE IsElementEnabled true"
         },
         {
-            "COMMAND": "[1793198509.987][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198510.046][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
+            "COMMAND": "[1793200910.786][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND ClickElement {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}",
+            "RESPONSE": "[1793200910.921][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE ClickElement"
         },
         {
-            "COMMAND": "[1793198510.055][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}",
-            "RESPONSE": "[1793198510.246][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
+            "COMMAND": "[1793200910.925][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200910.961][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198510.259][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198510.426][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200911.581][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200911.597][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198511.135][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198511.207][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200912.131][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200912.141][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198511.765][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
-            "RESPONSE": "[1793198512.379][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.374\"}"
+            "COMMAND": "[1793200912.666][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200912.681][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198512.655][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//span[contains(text(), 'Top selling')]/ancestor::div[@id='dismissible']//ytd-grid-movie-renderer\"}",
-            "RESPONSE": "[1793198512.681][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.377\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.378\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.379\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.380\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.381\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.382\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.383\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.384\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.385\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.386\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.387\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.388\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.389\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.390\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.391\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.392\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.393\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.394\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.395\"}, \"...\" ]"
+            "COMMAND": "[1793200913.215][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//div[@id='right-arrow']/ytd-button-renderer\"}",
+            "RESPONSE": "[1793200913.226][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.316\"}"
         },
         {
-            "COMMAND": "[1793198512.692][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.377\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.715][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:25:01\\n    2:25:01\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Spider-Man: Brand New Day\\n    \\n  \\n  \\n    Action & adventure \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n   ...\""
+            "COMMAND": "[1793200913.270][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//span[contains(text(), 'Top selling')]/ancestor::div[@id='dismissible']//ytd-grid-movie-renderer\"}",
+            "RESPONSE": "[1793200913.288][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElements [ {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.318\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.319\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.320\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.321\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.322\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.323\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.324\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.325\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.326\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.327\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.328\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.329\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.330\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.331\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.332\"}, {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.333\"} ]"
         },
         {
-            "COMMAND": "[1793198512.727][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.378\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.739][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:50:45\\n    1:50:45\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Obsession\\n    \\n  \\n  \\n    Horror \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
+            "COMMAND": "[1793200913.295][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.318\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.309][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:25:01\\n    2:25:01\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Spider-Man: Brand New Day\\n    \\n  \\n  \\n    Action & adventure \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n   ...\""
         },
         {
-            "COMMAND": "[1793198512.745][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.379\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.757][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:42:45\\n    2:42:45\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Drishyam\\n    \\n  \\n  \\n    Drama \u2022 2015\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
+            "COMMAND": "[1793200913.316][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.319\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.325][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:50:45\\n    1:50:45\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Obsession\\n    \\n  \\n  \\n    Horror \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
         },
         {
-            "COMMAND": "[1793198512.763][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.380\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.773][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:45:53\\n    1:45:53\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Insidious: Out Of The Further\\n    \\n  \\n  \\n    Thriller \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n ...\""
+            "COMMAND": "[1793200913.330][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.320\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.339][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:42:45\\n    2:42:45\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Drishyam\\n    \\n  \\n  \\n    Drama \u2022 2015\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
         },
         {
-            "COMMAND": "[1793198512.778][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.381\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.789][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:39:09\\n    2:39:09\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Gangs Of Wasseypur\\n    \\n  \\n  \\n    Indian cinema \u2022 2012\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n ...\""
+            "COMMAND": "[1793200913.342][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.321\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.352][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:45:53\\n    1:45:53\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Insidious: Out Of The Further\\n    \\n  \\n  \\n    Thriller \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n ...\""
         },
         {
-            "COMMAND": "[1793198512.795][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.382\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.806][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:19:41\\n    2:19:41\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Gangs Of Wasseypur II\\n    \\n  \\n  \\n    Indian cinema \u2022 2012\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n ...\""
+            "COMMAND": "[1793200913.356][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.322\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.367][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:39:09\\n    2:39:09\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Gangs Of Wasseypur\\n    \\n  \\n  \\n    Indian cinema \u2022 2012\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n ...\""
         },
         {
-            "COMMAND": "[1793198512.811][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.383\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.823][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:35:00\\n    2:35:00\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Goliyon Ki Raasleela Ram-Leela\\n    \\n  \\n  \\n    Indian cinema \u2022 2013\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n   ...\""
+            "COMMAND": "[1793200913.374][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.323\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.400][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:19:41\\n    2:19:41\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Gangs Of Wasseypur II\\n    \\n  \\n  \\n    Indian cinema \u2022 2012\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n ...\""
         },
         {
-            "COMMAND": "[1793198512.829][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.384\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.843][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:39:24\\n    1:39:24\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      The End of Oak Street\\n    \\n  \\n  \\n    Action & adventure \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  ...\""
+            "COMMAND": "[1793200913.416][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.324\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.429][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:35:00\\n    2:35:00\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Goliyon Ki Raasleela Ram-Leela\\n    \\n  \\n  \\n    Indian cinema \u2022 2013\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n   ...\""
         },
         {
-            "COMMAND": "[1793198512.852][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.385\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.864][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:29:27\\n    2:29:27\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Saiyaara\\n    \\n  \\n  \\n    Romance \u2022 2025\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
+            "COMMAND": "[1793200913.443][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.325\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.455][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:39:24\\n    1:39:24\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      The End of Oak Street\\n    \\n  \\n  \\n    Action & adventure \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  ...\""
         },
         {
-            "COMMAND": "[1793198512.874][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.386\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.888][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:40:59\\n    1:40:59\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Coraline\\n    \\n  \\n  \\n    Animation \u2022 2009\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n  ...\""
+            "COMMAND": "[1793200913.461][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.326\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.473][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:29:27\\n    2:29:27\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Saiyaara\\n    \\n  \\n  \\n    Romance \u2022 2025\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
         },
         {
-            "COMMAND": "[1793198512.898][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.387\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.922][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:35:16\\n    2:35:16\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      F1\u00ae The Movie\\n    \\n  \\n  \\n    Action & adventure \u2022 2025\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n...\""
+            "COMMAND": "[1793200913.478][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.327\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.487][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:40:59\\n    1:40:59\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Coraline\\n    \\n  \\n  \\n    Animation \u2022 2009\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n  ...\""
         },
         {
-            "COMMAND": "[1793198512.928][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.388\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.946][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:59:51\\n    1:59:51\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Maalai Nera Malipoo\\n    \\n  \\n  \\n    Drama \u2022 2023\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n...\""
+            "COMMAND": "[1793200913.492][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.328\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.505][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:35:16\\n    2:35:16\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      F1\u00ae The Movie\\n    \\n  \\n  \\n    Action & adventure \u2022 2025\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n...\""
         },
         {
-            "COMMAND": "[1793198512.959][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.389\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198512.977][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  3:12:27\\n    3:12:27\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Veer-Zaara\\n    \\n  \\n  \\n    Indian cinema \u2022 2004\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n...\""
+            "COMMAND": "[1793200913.510][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.329\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.521][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:59:51\\n    1:59:51\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Maalai Nera Malipoo\\n    \\n  \\n  \\n    Drama \u2022 2023\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n...\""
         },
         {
-            "COMMAND": "[1793198512.987][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.390\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.011][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:49:32\\n    2:49:32\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Sultan\\n    \\n  \\n  \\n    Romance \u2022 2016\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
+            "COMMAND": "[1793200913.526][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.330\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.538][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  3:12:27\\n    3:12:27\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Veer-Zaara\\n    \\n  \\n  \\n    Indian cinema \u2022 2004\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n...\""
         },
         {
-            "COMMAND": "[1793198513.022][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.391\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.074][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:31:35\\n    2:31:35\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      PK\\n    \\n  \\n  \\n    Comedy \u2022 2014\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    \u2022\\n   ...\""
+            "COMMAND": "[1793200913.544][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.331\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.554][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:49:32\\n    2:49:32\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Sultan\\n    \\n  \\n  \\n    Romance \u2022 2016\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    ...\""
         },
         {
-            "COMMAND": "[1793198513.129][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.392\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.181][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:22:30\\n    2:22:30\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      The Shawshank Redemption\\n    \\n  \\n  \\n    Drama \u2022 1995\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n   ...\""
+            "COMMAND": "[1793200913.560][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.332\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.571][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:31:35\\n    2:31:35\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      PK\\n    \\n  \\n  \\n    Comedy \u2022 2014\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n\\n\\n\\n\\n    \u2022\\n   ...\""
         },
         {
-            "COMMAND": "[1793198513.193][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.393\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.231][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  1:47:40\\n    1:47:40\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Eternal Sunshine of the Spotless Mind\\n    \\n  \\n  \\n    Comedy \u2022 2004\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n   ...\""
+            "COMMAND": "[1793200913.576][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND GetElementProperty {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.73F4A716112081ED50418AD6828B80A3.e.333\",\"name\": \"textContent\"}",
+            "RESPONSE": "[1793200913.588][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:22:30\\n    2:22:30\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n    Watch later\\n  \\n  \\n  Watch later\\n\\n\\n\\n    Add to queue\\n  \\n  \\n  Add to queue\\n\\n\\n\\n\\n\\n\\n  \\n    \\n    \\n      The Shawshank Rede...\""
         },
         {
-            "COMMAND": "[1793198513.237][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.394\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.260][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:50:44\\n    2:50:44\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Jawan\\n    \\n  \\n  \\n    Action & adventure \u2022 2023\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n...\""
+            "COMMAND": "[1793200913.611][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1793200915.724][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE Navigate"
         },
         {
-            "COMMAND": "[1793198513.269][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.395\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.289][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:21:25\\n    2:21:25\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Raees\\n    \\n  \\n  \\n    Action & adventure \u2022 2017\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n\\n...\""
+            "COMMAND": "[1793200919.031][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//*[@title='Music']//tp-yt-paper-item[@role='link']\"}",
+            "RESPONSE": "[1793200919.070][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.92DCF4AE7F61A0C40B3F9295A41B340B.e.435\"}"
         },
         {
-            "COMMAND": "[1793198513.297][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.396\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.315][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  3:10:16\\n    3:10:16\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Dilwale Dulhania Le Jayenge\\n    \\n  \\n  \\n    Comedy \u2022 1995\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  ...\""
+            "COMMAND": "[1793200919.093][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND IsElementEnabled {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.92DCF4AE7F61A0C40B3F9295A41B340B.e.435\"}",
+            "RESPONSE": "[1793200919.100][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE IsElementEnabled true"
         },
         {
-            "COMMAND": "[1793198513.323][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.397\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.337][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:36:23\\n    2:36:23\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Project Hail Mary\\n    \\n  \\n  \\n    Action & adventure \u2022 2026\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n...\""
+            "COMMAND": "[1793200919.103][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND ClickElement {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.92DCF4AE7F61A0C40B3F9295A41B340B.e.435\"}",
+            "RESPONSE": "[1793200919.223][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE ClickElement"
         },
         {
-            "COMMAND": "[1793198513.345][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.398\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.364][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  3:35:43\\n    3:35:43\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Mohabbatein\\n    \\n  \\n  \\n    Indian cinema \u2022 2000\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n    \\n  \\n...\""
+            "COMMAND": "[1793200922.236][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-rich-section-renderer[3]//div[@id='contents']//ytd-rich-item-renderer[last()]//div[@class='ytBadgeShapeText']\"}",
+            "RESPONSE": "[1793200922.262][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.743890F79CB1003AFD0A93A3A0514130.d.92DCF4AE7F61A0C40B3F9295A41B340B.e.1048\"}"
         },
         {
-            "COMMAND": "[1793198513.378][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.399\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.393][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:44:07\\n    2:44:07\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n\\n\\n\\n  \\n    \\n    \\n      Rab Ne Bana Di Jodi\\n    \\n  \\n  \\n    Indian cinema \u2022 2008\\n  \\n  \\n  \\n\\n  \\n    \\n    \\n  \\n    \\n  \\n  \\n  \\n...\""
-        },
-        {
-            "COMMAND": "[1793198513.403][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND GetElementProperty {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.51DC4D3B71676645B9994AB5D632104D.e.400\",\"name\": \"textContent\"}",
-            "RESPONSE": "[1793198513.416][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE GetElementProperty \"\\n  \\n  \\n  \\n  2:03:47\\n    2:03:47\\n  Now playing\\n\\n  \\n    \\n    \\n    \\n  \\n\\n\\n\\n  \\n  \\n    Watch later\\n  \\n  \\n  Watch later\\n\\n\\n\\n    Add to queue\\n  \\n  \\n  Add to queue\\n\\n\\n\\n\\n\\n\\n  \\n    \\n    \\n      The Notebook\\n    \\n...\""
-        },
-        {
-            "COMMAND": "[1793198513.464][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
-            "RESPONSE": "[1793198517.244][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE Navigate"
-        },
-        {
-            "COMMAND": "[1793198520.872][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//*[@title='Music']//tp-yt-paper-item[@role='link']\"}",
-            "RESPONSE": "[1793198520.900][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.9D313ADFD70698229CD2596E280C7978.e.502\"}"
-        },
-        {
-            "COMMAND": "[1793198520.934][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND IsElementEnabled {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.9D313ADFD70698229CD2596E280C7978.e.502\"}",
-            "RESPONSE": "[1793198520.950][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE IsElementEnabled true"
-        },
-        {
-            "COMMAND": "[1793198520.962][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND ClickElement {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.9D313ADFD70698229CD2596E280C7978.e.502\"}",
-            "RESPONSE": "[1793198521.198][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE ClickElement"
-        },
-        {
-            "COMMAND": "[1793198525.221][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//ytd-rich-section-renderer[3]//div[@id='contents']//ytd-rich-item-renderer[last()]//div[@class='ytBadgeShapeText']\"}",
-            "RESPONSE": "[1793198525.270][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.9D313ADFD70698229CD2596E280C7978.e.1120\"}"
-        },
-        {
-            "COMMAND": "[1793198525.323][INFO]: [67a0c62443a4262d60c121021f1eb982] COMMAND FindChildElements {\"id\": \"f.E3B320E6D0AC381DA0933135B30EEBAC.d.9D313ADFD70698229CD2596E280C7978.e.1120\",\"using\": \"css selector\",\"value\": \"a#video-title\"}",
-            "RESPONSE": "[1793198525.356][INFO]: [67a0c62443a4262d60c121021f1eb982] RESPONSE FindChildElements [  ]"
+            "COMMAND": "[1793200922.288][INFO]: [0c12f7b6217c48c2998af8cae184de69] COMMAND FindChildElements {\"id\": \"f.743890F79CB1003AFD0A93A3A0514130.d.92DCF4AE7F61A0C40B3F9295A41B340B.e.1048\",\"using\": \"css selector\",\"value\": \"a#video-title\"}",
+            "RESPONSE": "[1793200922.303][INFO]: [0c12f7b6217c48c2998af8cae184de69] RESPONSE FindChildElements [  ]"
         }
     ]
 }

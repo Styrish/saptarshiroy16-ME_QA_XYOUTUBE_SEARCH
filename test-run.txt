@@ -1,0 +1,199 @@
+> Task :clean
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :startScripts
+> Task :distTar
+> Task :distZip
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+Gradle Test Executor 11 STANDARD_OUT
+    [TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+
+Test Suite for Buildout > Test Cases for Buildout STANDARD_ERROR
+    Oct 28, 2026 8:51:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 153; Please update to a Selenium version that supports CDP version 156
+
+Test Suite for Buildout > Test Cases for Buildout > demo.TestCases > testCase01 STANDARD_OUT
+    Running Test Case 01
+    Our mission is to give everyone a voice and show them the world.
+
+    We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.
+    Our mission is to give everyone a voice and show them the world.
+
+    We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.
+    How YouTube Works
+    Creators
+    Culture & Trends
+    Blog
+    About YouTube
+    Our mission is to give everyone a voice and show them the world.
+
+    We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.
+    Footer links
+    Social Module
+    Connect
+    About YouTube
+    About
+    Blog
+    How YouTube Works
+    Jobs
+    Press
+    YouTube Culture & Trends
+    NFL Sunday Ticket
+    Products
+    YouTube Kids
+    YouTube Music
+    YouTube Originals
+    YouTube Podcasts
+    YouTube Premium
+    YouTube Select
+    YouTube Studio
+    YouTube TV
+    For Business
+    Developers
+    YouTube Advertising
+    For Creators
+    Creating for YouTube Kids
+    Creator Research
+    Creator Services Directory
+    YouTube Artists
+    YouTube Creators
+    YouTube VR
+    Our Commitments
+    Creators for Change
+    CSAI Match
+    Policies & Safety
+    Copyright
+    Brand Guidelines
+    Privacy
+    Terms
+    Help
+
+Test Suite for Buildout > Test Cases for Buildout > demo.TestCases > testCase01 PASSED
+
+Test Suite for Buildout > Test Cases for Buildout > demo.TestCases > testCase02 STANDARD_OUT
+    Running Test Case 02
+
+Test Suite for Buildout > Test Cases for Buildout > demo.TestCases > testCase02 PASSED
+
+Test Suite for Buildout > Test Cases for Buildout > demo.TestCases > testCase03 STANDARD_OUT
+    Running Test Case 03
+
+Test Suite for Buildout > Test Cases for Buildout > demo.TestCases > testCase03 PASSED
+
+Test Suite for Buildout > Test Cases for Buildout STANDARD_ERROR
+    Oct 28, 2026 8:52:02 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    WARNING: Connection reset
+    java.net.SocketException: Connection reset
+    	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+    	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+    	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+    	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+    	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+    	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+    	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+    	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+    	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+    	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+    	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+    	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
+    	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+    	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+
+
+Gradle Test Executor 11 STANDARD_ERROR
+    [TestNG] Reporter org.testng.reporters.JUnitReportReporter@7daa0fbd failed
+    java.util.ConcurrentModificationException
+    	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1013)
+    	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:967)
+    	at org.testng.reporters.JUnitReportReporter.getNextConfiguration(JUnitReportReporter.java:220)
+    	at org.testng.reporters.JUnitReportReporter.generateReport(JUnitReportReporter.java:105)
+    	at org.testng.TestNG.generateReports(TestNG.java:1175)
+    	at org.testng.TestNG.run(TestNG.java:1102)
+    	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+    	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+    	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+    	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+    	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+    	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+    	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+    	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+TEST RESULT: SUCCESS
+TEST SUMMARY: RAN 3 TESTS, 3 SUCCEEDED, 0 FAILED, 0 SKIPPED
+
+> Task :checkstyleTest
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:42: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:43: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:62: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:65: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:71: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:76: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:80: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:81: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:82: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:83: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:84: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:88: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:90: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:92: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:97: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:104: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:138: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:143: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:145: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:155: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:157: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:158: USED_WAIT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:160: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:163: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:166: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:167: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:170: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:174: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:176: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:178: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:179: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:183: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\TestCases.java:185: USED_THREAD_SLEEP [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelDataProvider.java:10: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:17: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:30: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:33: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:39: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:47: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:61: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\utils\ExcelReaderUtil.java:75: USED_COMMENT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\wrappers\Wrappers.java:28: USED_WAIT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\wrappers\Wrappers.java:71: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\wrappers\Wrappers.java:91: USED_SOPL [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\wrappers\Wrappers.java:120: USED_WAIT [RegexpSinglelineJava]
+[ant:checkstyle] [ERROR] C:\Users\Saptarshi Roy\Crio_QAINTV Projects\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\saptarshiroy16-ME_QA_XYOUTUBE_SEARCH\src\test\java\demo\wrappers\Wrappers.java:247: USED_COMMENT [RegexpSinglelineJava]
+Checkstyle rule violations were found. See the report at: file:///C:/Users/Saptarshi%20Roy/Crio_QAINTV%20Projects/saptarshiroy16-ME_QA_XYOUTUBE_SEARCH/saptarshiroy16-ME_QA_XYOUTUBE_SEARCH/build/reports/checkstyle/test.xml
+Checkstyle files with violations: 4
+Checkstyle violations by severity: [error:46]
+
+
+BUILD SUCCESSFUL in 1m 6s
+10 actionable tasks: 10 executed

@@ -86,6 +86,10 @@ public class TestCases extends ExcelDataProvider { // Lets us read the data
                 By youtubeContentLocator = By.xpath("//p[@data-cy='pageSubHeading']");
                 String content = Wrappers.findElementAndPrint(driver, youtubeContentLocator, 0);
                 System.out.println(content);
+
+                // Read and print the About page content.
+                String aboutText = Wrappers.getText(driver, By.tagName("body"));
+                System.out.println(aboutText);
         }
 
         @Test(enabled = true)
@@ -184,7 +188,7 @@ public class TestCases extends ExcelDataProvider { // Lets us read the data
 
         }
         
-        @AfterTest
+        @AfterTest(alwaysRun = true)
         public void endTest() {
             if (driver != null){
                 driver.close();
